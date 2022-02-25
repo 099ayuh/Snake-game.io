@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+body, html {
+    height: 100%;
+}
+
+.body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk52DMO_fkkqGuZhY3nEEyGynDf2T7FLrbWpcjsNkZGNY_DEzf1OOGxO0XYysxgq3PmZA&usqp=CAU");
+    background-image: url("img/wp2409705.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myscore {
+    position: absolute;
+    top: 9px;
+    right: 130px;
+    font-size: 31px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+    background-color: gold;
+    border: 8px solid white;
+}
+#highscore {
+    position: absolute;
+    padding: 7px;
+    top: 65px;
+    right: 100px;
+    font-size: 31px;
+    font-weight: bold;
+    font-family: serif;
+    background-color: orange;
+    border: 8px solid black;
+}
+
+#button1 {
+    background: transparent;
+}
+
+.buttn {
+    padding: 20px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-weight: 100;
+    font-size: 39px;
+}
+
+.buttn1 {
+    margin: 20px;
+}
+
+.buttn2 {
+    margin: 20px;
+}
+
+.buttn3 {
+    margin: 20px;
+}
+
+.buttn4 {
+    margin: 20px;
+}
+
+.buttn1:hover {
+    padding: 20px;
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+.buttn2:hover {
+    padding: 20px;
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+.buttn3:hover {
+    padding: 20px;
+    background-color: pink;
+    border: 1px solid pink;
+}
+
+.buttn4:hover {
+    padding: 20px;
+    background-color: rgb(0, 255, 128);
+    border: 1px solid rgb(0, 255, 128);
+}
+
+#board {
+    background: linear-gradient(yellow, cyan);
+    width: 90vmin;
+    height: 92vmin;
+    border: 20px solid blueviolet;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.head {
+    background: linear-gradient(rgb(240, 124, 124), blue);
+    border: 2px solid blue;
+    transform: scale(1.02);
+    border-radius: 9px;
+}
+
+.snake {
+    background-color: red;
+    border: .25vmin solid red;
+    border-radius: 50%;
+}
+
+.food {
+    background: linear-gradient(red, purple);
+    border: .25vmin solid blue;
+    border-radius: 15px;
+}
