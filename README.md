@@ -1,2 +1,2 @@
 # Snake-game.io
-https://099ayuh.github.io/Snake-game.io
+https://099ayuh.github.io/Snake-game.io/
