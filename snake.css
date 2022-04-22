@@ -7,7 +7,81 @@
 body, html {
     height: 100%;
 }
+@media screen and (max-width: 600px) {
+    
+    #button1 {
+        background: transparent;
+        
+    }
 
+    .buttn {
+        display: inline;
+        padding: 15px;
+        position: absolute;
+        background-color: red;
+        border: 1px solid red;
+        border-radius: 50%;
+        font-weight: 60;
+        font-size: 20px;
+    }
+
+    .buttn1 {
+        bottom: -28px;
+        left: 231px;
+    }
+
+    .buttn2 {
+        bottom: -83px;
+        left: 163px;
+    }
+
+    .buttn3 {
+        bottom: -80px;
+        left: 305px;
+    }
+
+    .buttn4 {
+        bottom: -140px;
+        left: 231px;
+    }
+
+    .buttn1:hover {
+        padding: 20px;
+        background-color: blue;
+        border: 1px solid blue;
+    }
+
+    .buttn2:hover {
+        padding: 20px;
+        background-color: yellow;
+        border: 1px solid yellow;
+    }
+
+    .buttn3:hover {
+        padding: 20px;
+        background-color: pink;
+        border: 1px solid pink;
+    }
+
+    .buttn4:hover {
+        padding: 20px;
+        background-color: rgb(0, 255, 128);
+        border: 1px solid rgb(0, 255, 128);
+        
+    }
+}
+.Foot{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+}
+.but1{
+    padding: 10px;
+    margin: 5px;
+    background-color: blue;
+}
 .body {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk52DMO_fkkqGuZhY3nEEyGynDf2T7FLrbWpcjsNkZGNY_DEzf1OOGxO0XYysxgq3PmZA&usqp=CAU");
     background-image: url("img/wp2409705.jpg");
@@ -92,7 +166,11 @@ body, html {
     padding: 20px;
     background-color: rgb(0, 255, 128);
     border: 1px solid rgb(0, 255, 128);
+    
 }
+/* #button1 {
+    display: none;
+} */
 
 #board {
     background: linear-gradient(yellow, cyan);

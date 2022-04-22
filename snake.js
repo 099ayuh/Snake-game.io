@@ -32,7 +32,7 @@ function iscollide(srr) {
     //if snake bump into the wall
     if (srr[0].x >= 18 || srr[0].x <= 0 || srr[0].y >= 18 || srr[0].y <= 0) {
         return true;
-        
+
     }
 
 }
@@ -61,8 +61,8 @@ function gameEngine() {
     if (snakearray[0].y === food.y && snakearray[0].x === food.x) {
         foodvar.play();
         score += 1;
-        if ( score == 26 || score == 43 || score == 66 || score == 88 || score == 99 || score >= 105 ) {
-            speed +=5;
+        if (score == 26 || score == 43 || score == 66 || score == 88 || score == 99 || score >= 105) {
+            speed += 5;
 
         }
         myscore.innerHTML = "Score: " + score;
@@ -174,3 +174,12 @@ function myeventlistener(e) {
             break;
     }
 };
+
+// // document.getElementById("button1").style.display = "none";
+// const mediaQuery = window.matchMedia('(min-width: 768px)')
+// // Check if the media query is true
+// if (mediaQuery.matches) {
+//     // Then trigger an alert
+//     document.getElementById("button1").style.display = "none";
+// }
+
